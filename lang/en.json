@@ -1,1 +1,309 @@
-
+{
+  "page": {
+    "home": {
+      "title": "Learn English Online - Premier English Learning Course",
+      "description": "Master English with our comprehensive online course. Interactive lessons, expert instructors, and flexible learning for all levels."
+    },
+    "about": {
+      "title": "About Us - English Learning Academy",
+      "description": "Learn about our mission, teaching methodology, and expert instructors dedicated to your English learning success."
+    },
+    "courses": {
+      "title": "Our Courses - English Learning Academy",
+      "description": "Explore our comprehensive English courses designed for all levels. From beginner to advanced, find the perfect course for your learning goals."
+    },
+    "contact": {
+      "title": "Contact Us - English Learning Academy",
+      "description": "Get in touch with English Academy. Contact our support team for questions about courses, enrollment, or technical assistance."
+    }
+  },
+  "nav": {
+    "logo": "English Academy",
+    "home": "Home",
+    "about": "About",
+    "courses": "Courses",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Master English with Expert Guidance",
+      "subtitle": "Transform your English skills with our comprehensive online learning platform. Join thousands of successful students worldwide.",
+      "cta": "Start Learning Now",
+      "learn-more": "Learn More"
+    },
+    "features": {
+      "title": "Why Choose Our Course?",
+      "expert": {
+        "title": "Expert Instructors",
+        "description": "Learn from certified native speakers with years of teaching experience."
+      },
+      "flexible": {
+        "title": "Flexible Learning",
+        "description": "Study at your own pace with 24/7 access to course materials."
+      },
+      "interactive": {
+        "title": "Interactive Content",
+        "description": "Engage with multimedia lessons, quizzes, and real-time feedback."
+      }
+    },
+    "stats": {
+      "students": "Students Enrolled",
+      "success": "Success Rate",
+      "countries": "Countries",
+      "support": "Support"
+    },
+    "cta": {
+      "title": "Ready to Start Your English Journey?",
+      "description": "Join our community of learners and unlock your potential with our proven teaching methods.",
+      "button": "Get Started Today"
+    }
+  },
+  "about": {
+    "header": {
+      "title": "About English Academy",
+      "subtitle": "Discover our passion for teaching and commitment to your success"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "At English Academy, we believe that language learning should be accessible, engaging, and effective. Our mission is to empower learners worldwide with the tools and confidence they need to master the English language.",
+      "vision": "We envision a world where language barriers don't limit opportunities, and every learner has access to high-quality English education that opens doors to global communication and success."
+    },
+    "method": {
+      "title": "Our Teaching Methodology",
+      "communicative": {
+        "title": "Communicative Approach",
+        "description": "Focus on real-world communication skills through interactive exercises and practical scenarios."
+      },
+      "progressive": {
+        "title": "Progressive Learning",
+        "description": "Structured curriculum that builds from basic to advanced concepts systematically."
+      },
+      "personalized": {
+        "title": "Personalized Learning",
+        "description": "Adaptive content that adjusts to your learning pace and individual needs."
+      }
+    },
+    "team": {
+      "title": "Meet Our Expert Instructors",
+      "sarah": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Lead Instructor",
+        "bio": "PhD in Applied Linguistics with 15 years of teaching experience across different cultures."
+      },
+      "michael": {
+        "name": "Michael Chen",
+        "title": "Conversation Specialist",
+        "bio": "Native speaker specializing in pronunciation and conversational English for business professionals."
+      },
+      "emma": {
+        "name": "Emma Williams",
+        "title": "Grammar Expert",
+        "bio": "Master's in English Education with expertise in making complex grammar concepts simple and fun."
+      }
+    },
+    "values": {
+      "title": "Our Core Values",
+      "excellence": {
+        "title": "Excellence",
+        "description": "We maintain the highest standards in course content, instruction, and student support."
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "description": "Quality education should be available to everyone, regardless of location or background."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We continuously evolve our teaching methods using the latest educational technology."
+      },
+      "community": {
+        "title": "Community",
+        "description": "Building a supportive learning environment where students help each other succeed."
+      }
+    }
+  },
+  "courses": {
+    "header": {
+      "title": "Our English Courses",
+      "subtitle": "Choose the perfect course to match your learning goals and current level"
+    },
+    "filter": {
+      "all": "All Courses",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "business": "Business"
+    },
+    "duration": "Duration:",
+    "lessons": "Lessons:",
+    "enroll": "Enroll Now",
+    "beginner": {
+      "level": "Beginner",
+      "title": "English Foundations",
+      "description": "Perfect for complete beginners. Learn basic vocabulary, pronunciation, and essential grammar to start your English journey.",
+      "duration": "12 weeks",
+      "lessons": "36 lessons",
+      "feature1": "Basic vocabulary (500+ words)",
+      "feature2": "Pronunciation training",
+      "feature3": "Simple conversations",
+      "feature4": "Grammar fundamentals",
+      "price": "$99"
+    },
+    "intermediate": {
+      "level": "Intermediate",
+      "title": "English Expansion",
+      "description": "Build upon your basic knowledge with complex grammar, expanded vocabulary, and real-world communication skills.",
+      "duration": "16 weeks",
+      "lessons": "48 lessons",
+      "feature1": "Advanced grammar structures",
+      "feature2": "2000+ vocabulary words",
+      "feature3": "Reading comprehension",
+      "feature4": "Writing skills development",
+      "price": "$149"
+    },
+    "advanced": {
+      "level": "Advanced",
+      "title": "English Mastery",
+      "description": "Achieve fluency with advanced topics, nuanced expressions, and professional communication skills.",
+      "duration": "20 weeks",
+      "lessons": "60 lessons",
+      "feature1": "Complex grammar mastery",
+      "feature2": "Idiomatic expressions",
+      "feature3": "Academic writing",
+      "feature4": "Public speaking skills",
+      "price": "$199"
+    },
+    "business": {
+      "level": "Business",
+      "title": "Business English",
+      "description": "Professional English for the workplace. Master business communication, presentations, and industry-specific vocabulary.",
+      "duration": "14 weeks",
+      "lessons": "42 lessons",
+      "feature1": "Business correspondence",
+      "feature2": "Meeting facilitation",
+      "feature3": "Presentation skills",
+      "feature4": "Industry vocabulary",
+      "price": "$179"
+    },
+    "conversation": {
+      "level": "All Levels",
+      "title": "Conversation Practice",
+      "description": "Improve your speaking confidence through guided conversations, role-plays, and interactive speaking exercises.",
+      "duration": "8 weeks",
+      "lessons": "24 lessons",
+      "feature1": "Live conversation practice",
+      "feature2": "Pronunciation coaching",
+      "feature3": "Confidence building",
+      "feature4": "Real-world scenarios",
+      "price": "$79"
+    },
+    "ielts": {
+      "level": "Test Prep",
+      "title": "IELTS Preparation",
+      "description": "Comprehensive IELTS test preparation covering all four skills: Reading, Writing, Listening, and Speaking.",
+      "duration": "10 weeks",
+      "lessons": "40 lessons",
+      "feature1": "Practice tests",
+      "feature2": "Test strategies",
+      "feature3": "Score improvement",
+      "feature4": "Expert feedback",
+      "price": "$229"
+    },
+    "benefits": {
+      "title": "What's Included in Every Course",
+      "materials": {
+        "title": "Course Materials",
+        "description": "Comprehensive study materials, worksheets, and downloadable resources."
+      },
+      "support": {
+        "title": "Personal Support",
+        "description": "One-on-one guidance from certified instructors throughout your journey."
+      },
+      "certificate": {
+        "title": "Certificate",
+        "description": "Earn a verified certificate upon successful completion of your course."
+      },
+      "access": {
+        "title": "Lifetime Access",
+        "description": "Continue learning at your own pace with permanent access to course content."
+      }
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Contact Us",
+      "subtitle": "We're here to help you on your English learning journey"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": "Full Name *",
+      "email": "Email Address *",
+      "phone": "Phone Number",
+      "subject": "Subject *",
+      "subject-options": {
+        "placeholder": "Please select a subject",
+        "course": "Course Inquiry",
+        "technical": "Technical Support",
+        "enrollment": "Enrollment Help",
+        "billing": "Billing Question",
+        "other": "Other"
+      },
+      "message": "Message *",
+      "newsletter": "Subscribe to our newsletter for course updates and English learning tips",
+      "submit": "Send Message"
+    },
+    "info": {
+      "title": "Get in Touch",
+      "description": "Have questions about our courses or need support? We're here to help!",
+      "email": {
+        "title": "Email Us",
+        "response": "We respond within 24 hours"
+      },
+      "phone": {
+        "title": "Call Us",
+        "hours": "Mon-Fri: 9AM-6PM EST"
+      },
+      "address": {
+        "title": "Visit Us",
+        "line1": "123 Learning Street",
+        "line2": "Education City, EC 12345"
+      },
+      "hours": {
+        "title": "Office Hours",
+        "weekdays": "Mon-Fri: 9:00 AM - 6:00 PM",
+        "weekend": "Sat-Sun: 10:00 AM - 4:00 PM"
+      },
+      "support": {
+        "title": "Need Immediate Help?",
+        "description": "Check our FAQ section or use our live chat feature during business hours for instant assistance."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "enrollment": {
+        "question": "How do I enroll in a course?",
+        "answer": "You can enroll in any of our courses by visiting the Courses page, selecting your desired course, and clicking the \"Enroll Now\" button. You'll be guided through a simple registration and payment process."
+      },
+      "requirements": {
+        "question": "What are the technical requirements?",
+        "answer": "Our courses work on any device with an internet connection. We recommend using a modern web browser (Chrome, Firefox, Safari, or Edge) and having a stable internet connection for the best learning experience."
+      },
+      "refund": {
+        "question": "What is your refund policy?",
+        "answer": "We offer a 30-day money-back guarantee. If you're not satisfied with your course within the first 30 days, contact us for a full refund. No questions asked."
+      },
+      "certificate": {
+        "question": "Do I get a certificate upon completion?",
+        "answer": "Yes! Upon successful completion of any course, you'll receive a verified digital certificate that you can download and share on professional networks like LinkedIn."
+      }
+    }
+  },
+  "footer": {
+    "company": "English Academy",
+    "description": "Empowering learners worldwide with quality English education.",
+    "quick-links": "Quick Links",
+    "contact": "Contact Info",
+    "email": "Email: info@englishacademy.com",
+    "phone": "Phone: +1 (555) 123-4567",
+    "copyright": "© 2025 English Academy. All rights reserved."
+  }
+}
