@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="page.contact.title">Contact Us - English Learning Academy</title>
+    <meta name="description" data-translate="page.contact.description" content="Get in touch with English Academy. Contact our support team for questions about courses, enrollment, or technical assistance.">
+    <meta name="keywords" content="Contact English Academy, customer support, course inquiry, enrollment help">
+    <meta name="author" content="English Learning Academy">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" data-translate="page.contact.title" content="Contact Us - English Learning Academy">
+    <meta property="og:description" data-translate="page.contact.description" content="Get in touch with English Academy. Contact our support team for questions about courses, enrollment, or technical assistance.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" data-translate="page.contact.title" content="Contact Us - English Learning Academy">
+    <meta property="twitter:description" data-translate="page.contact.description" content="Get in touch with English Academy. Contact our support team for questions about courses, enrollment, or technical assistance.">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2 data-translate="nav.logo">English Academy</h2>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link" data-translate="nav.home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link" data-translate="nav.about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="courses.html" class="nav-link" data-translate="nav.courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link active" data-translate="nav.contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-controls">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <button class="lang-toggle" id="lang-toggle" aria-label="Toggle language">
+                        <span class="lang-text">TH</span>
+                    </button>
+                    <div class="hamburger" id="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 data-translate="contact.header.title">Contact Us</h1>
+                <p data-translate="contact.header.subtitle">We're here to help you on your English learning journey</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-container">
+                        <h2 data-translate="contact.form.title">Send us a Message</h2>
+                        <form class="contact-form" id="contact-form" action="https://formspree.io/f/xeqwlnnn" method="POST">
+                            <div class="form-group">
+                                <label for="name" data-translate="contact.form.name">Full Name *</label>
+                                <input type="text" id="name" name="name" required aria-describedby="name-error">
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" data-translate="contact.form.email">Email Address *</label>
+                                <input type="email" id="email" name="email" required aria-describedby="email-error">
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone" data-translate="contact.form.phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" aria-describedby="phone-error">
+                                <span class="error-message" id="phone-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject" data-translate="contact.form.subject">Subject *</label>
+                                <select id="subject" name="subject" required aria-describedby="subject-error">
+                                    <option value="" data-translate="contact.form.subject.placeholder">Please select a subject</option>
+                                    <option value="course-inquiry" data-translate="contact.form.subject.course">Course Inquiry</option>
+                                    <option value="technical-support" data-translate="contact.form.subject.technical">Technical Support</option>
+                                    <option value="enrollment" data-translate="contact.form.subject.enrollment">Enrollment Help</option>
+                                    <option value="billing" data-translate="contact.form.subject.billing">Billing Question</option>
+                                    <option value="other" data-translate="contact.form.subject.other">Other</option>
+                                </select>
+                                <span class="error-message" id="subject-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" data-translate="contact.form.message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required aria-describedby="message-error" placeholder="Please describe your question or concern in detail..."></textarea>
+                                <span class="error-message" id="message-error"></span>
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                                <label for="newsletter" data-translate="contact.form.newsletter">Subscribe to our newsletter for course updates and English learning tips</label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-large" id="submit-btn">
+                                <span data-translate="contact.form.submit">Send Message</span>
+                                <span class="loading-spinner" id="loading-spinner" style="display: none;">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="31.416" stroke-dashoffset="31.416">
+                                            <animate attributeName="stroke-dasharray" dur="2s" values="0 31.416;15.708 15.708;0 31.416" repeatCount="indefinite"/>
+                                            <animate attributeName="stroke-dashoffset" dur="2s" values="0;-15.708;-31.416" repeatCount="indefinite"/>
+                                        </circle>
+                                    </svg>
+                                </span>
+                            </button>
+                            
+                            <div class="form-message" id="form-message" style="display: none;"></div>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <h2 data-translate="contact.info.title">Get in Touch</h2>
+                        <p data-translate="contact.info.description">Have questions about our courses or need support? We're here to help!</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                        <polyline points="22,6 12,13 2,6"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <h3 data-translate="contact.info.email.title">Email Us</h3>
+                                    <p>info@englishacademy.com</p>
+                                    <p data-translate="contact.info.email.response">We respond within 24 hours</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <h3 data-translate="contact.info.phone.title">Call Us</h3>
+                                    <p>+1 (555) 123-4567</p>
+                                    <p data-translate="contact.info.phone.hours">Mon-Fri: 9AM-6PM EST</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                        <circle cx="12" cy="10" r="3"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <h3 data-translate="contact.info.address.title">Visit Us</h3>
+                                    <p data-translate="contact.info.address.line1">123 Learning Street</p>
+                                    <p data-translate="contact.info.address.line2">Education City, EC 12345</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <polyline points="12,6 12,12 16,14"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-details">
+                                    <h3 data-translate="contact.info.hours.title">Office Hours</h3>
+                                    <p data-translate="contact.info.hours.weekdays">Mon-Fri: 9:00 AM - 6:00 PM</p>
+                                    <p data-translate="contact.info.hours.weekend">Sat-Sun: 10:00 AM - 4:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="support-note">
+                            <h3 data-translate="contact.info.support.title">Need Immediate Help?</h3>
+                            <p data-translate="contact.info.support.description">Check our FAQ section or use our live chat feature during business hours for instant assistance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title" data-translate="contact.faq.title">Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <button class="faq-question" data-translate="contact.faq.enrollment.question">How do I enroll in a course?</button>
+                        <div class="faq-answer">
+                            <p data-translate="contact.faq.enrollment.answer">You can enroll in any of our courses by visiting the Courses page, selecting your desired course, and clicking the "Enroll Now" button. You'll be guided through a simple registration and payment process.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question" data-translate="contact.faq.requirements.question">What are the technical requirements?</button>
+                        <div class="faq-answer">
+                            <p data-translate="contact.faq.requirements.answer">Our courses work on any device with an internet connection. We recommend using a modern web browser (Chrome, Firefox, Safari, or Edge) and having a stable internet connection for the best learning experience.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question" data-translate="contact.faq.refund.question">What is your refund policy?</button>
+                        <div class="faq-answer">
+                            <p data-translate="contact.faq.refund.answer">We offer a 30-day money-back guarantee. If you're not satisfied with your course within the first 30 days, contact us for a full refund. No questions asked.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question" data-translate="contact.faq.certificate.question">Do I get a certificate upon completion?</button>
+                        <div class="faq-answer">
+                            <p data-translate="contact.faq.certificate.answer">Yes! Upon successful completion of any course, you'll receive a verified digital certificate that you can download and share on professional networks like LinkedIn.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-translate="footer.company">English Academy</h3>
+                    <p data-translate="footer.description">Empowering learners worldwide with quality English education.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-translate="footer.quick-links">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-translate="nav.home">Home</a></li>
+                        <li><a href="about.html" data-translate="nav.about">About</a></li>
+                        <li><a href="courses.html" data-translate="nav.courses">Courses</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-translate="footer.contact">Contact Info</h4>
+                    <p data-translate="footer.email">Email: info@englishacademy.com</p>
+                    <p data-translate="footer.phone">Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer.copyright">&copy; 2025 English Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

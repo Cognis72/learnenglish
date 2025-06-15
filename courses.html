@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="page.courses.title">Our Courses - English Learning Academy</title>
+    <meta name="description" data-translate="page.courses.description" content="Explore our comprehensive English courses designed for all levels. From beginner to advanced, find the perfect course for your learning goals.">
+    <meta name="keywords" content="English courses, beginner English, advanced English, business English, conversation course">
+    <meta name="author" content="English Learning Academy">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" data-translate="page.courses.title" content="Our Courses - English Learning Academy">
+    <meta property="og:description" data-translate="page.courses.description" content="Explore our comprehensive English courses designed for all levels. From beginner to advanced, find the perfect course for your learning goals.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" data-translate="page.courses.title" content="Our Courses - English Learning Academy">
+    <meta property="twitter:description" data-translate="page.courses.description" content="Explore our comprehensive English courses designed for all levels. From beginner to advanced, find the perfect course for your learning goals.">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2 data-translate="nav.logo">English Academy</h2>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link" data-translate="nav.home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link" data-translate="nav.about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="courses.html" class="nav-link active" data-translate="nav.courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link" data-translate="nav.contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-controls">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <button class="lang-toggle" id="lang-toggle" aria-label="Toggle language">
+                        <span class="lang-text">TH</span>
+                    </button>
+                    <div class="hamburger" id="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 data-translate="courses.header.title">Our English Courses</h1>
+                <p data-translate="courses.header.subtitle">Choose the perfect course to match your learning goals and current level</p>
+            </div>
+        </section>
+
+        <!-- Course Filter Section -->
+        <section class="course-filter">
+            <div class="container">
+                <div class="filter-tabs">
+                    <button class="filter-btn active" data-filter="all" data-translate="courses.filter.all">All Courses</button>
+                    <button class="filter-btn" data-filter="beginner" data-translate="courses.filter.beginner">Beginner</button>
+                    <button class="filter-btn" data-filter="intermediate" data-translate="courses.filter.intermediate">Intermediate</button>
+                    <button class="filter-btn" data-filter="advanced" data-translate="courses.filter.advanced">Advanced</button>
+                    <button class="filter-btn" data-filter="business" data-translate="courses.filter.business">Business</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Grid -->
+        <section class="courses-grid">
+            <div class="container">
+                <div class="courses-container">
+                    <!-- Beginner Course -->
+                    <div class="course-card" data-level="beginner">
+                        <div class="course-image">
+                            <svg width="100%" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="300" height="200" fill="var(--primary-color)" opacity="0.1"/>
+                                <circle cx="150" cy="70" r="25" fill="var(--primary-color)" opacity="0.8"/>
+                                <text x="150" y="120" text-anchor="middle" fill="var(--text-color)" font-size="16" font-weight="bold">ABC</text>
+                                <path d="M100 140 L150 160 L200 140" stroke="var(--primary-color)" stroke-width="2" fill="none"/>
+                            </svg>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-level" data-translate="courses.beginner.level">Beginner</div>
+                            <h3 class="course-title" data-translate="courses.beginner.title">English Foundations</h3>
+                            <p class="course-description" data-translate="courses.beginner.description">Perfect for complete beginners. Learn basic vocabulary, pronunciation, and essential grammar to start your English journey.</p>
+                            <div class="course-details">
+                                <div class="course-duration">
+                                    <span data-translate="courses.duration">Duration:</span> <span data-translate="courses.beginner.duration">12 weeks</span>
+                                </div>
+                                <div class="course-lessons">
+                                    <span data-translate="courses.lessons">Lessons:</span> <span data-translate="courses.beginner.lessons">36 lessons</span>
+                                </div>
+                            </div>
+                            <div class="course-features">
+                                <ul>
+                                    <li data-translate="courses.beginner.feature1">Basic vocabulary (500+ words)</li>
+                                    <li data-translate="courses.beginner.feature2">Pronunciation training</li>
+                                    <li data-translate="courses.beginner.feature3">Simple conversations</li>
+                                    <li data-translate="courses.beginner.feature4">Grammar fundamentals</li>
+                                </ul>
+                            </div>
+                            <div class="course-price">
+                                <span class="price" data-translate="courses.beginner.price">$99</span>
+                            </div>
+                            <button class="btn btn-primary course-enroll" data-translate="courses.enroll">Enroll Now</button>
+                        </div>
+                    </div>
+
+                    <!-- Intermediate Course -->
+                    <div class="course-card" data-level="intermediate">
+                        <div class="course-image">
+                            <svg width="100%" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="300" height="200" fill="var(--secondary-color)" opacity="0.1"/>
+                                <rect x="100" y="50" width="100" height="60" rx="10" fill="var(--secondary-color)" opacity="0.8"/>
+                                <text x="150" y="120" text-anchor="middle" fill="var(--text-color)" font-size="14" font-weight="bold">Intermediate</text>
+                                <circle cx="80" cy="150" r="10" fill="var(--secondary-color)"/>
+                                <circle cx="150" cy="150" r="10" fill="var(--secondary-color)"/>
+                                <circle cx="220" cy="150" r="10" fill="var(--secondary-color)"/>
+                            </svg>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-level" data-translate="courses.intermediate.level">Intermediate</div>
+                            <h3 class="course-title" data-translate="courses.intermediate.title">English Expansion</h3>
+                            <p class="course-description" data-translate="courses.intermediate.description">Build upon your basic knowledge with complex grammar, expanded vocabulary, and real-world communication skills.</p>
+                            <div class="course-details">
+                                <div class="course-duration">
+                                    <span data-translate="courses.duration">Duration:</span> <span data-translate="courses.intermediate.duration">16 weeks</span>
+                                </div>
+                                <div class="course-lessons">
+                                    <span data-translate="courses.lessons">Lessons:</span> <span data-translate="courses.intermediate.lessons">48 lessons</span>
+                                </div>
+                            </div>
+                            <div class="course-features">
+                                <ul>
+                                    <li data-translate="courses.intermediate.feature1">Advanced grammar structures</li>
+                                    <li data-translate="courses.intermediate.feature2">2000+ vocabulary words</li>
+                                    <li data-translate="courses.intermediate.feature3">Reading comprehension</li>
+                                    <li data-translate="courses.intermediate.feature4">Writing skills development</li>
+                                </ul>
+                            </div>
+                            <div class="course-price">
+                                <span class="price" data-translate="courses.intermediate.price">$149</span>
+                            </div>
+                            <button class="btn btn-primary course-enroll" data-translate="courses.enroll">Enroll Now</button>
+                        </div>
+                    </div>
+
+                    <!-- Advanced Course -->
+                    <div class="course-card" data-level="advanced">
+                        <div class="course-image">
+                            <svg width="100%" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="300" height="200" fill="var(--accent-color)" opacity="0.1"/>
+                                <polygon points="150,40 180,100 120,100" fill="var(--accent-color)" opacity="0.8"/>
+                                <text x="150" y="130" text-anchor="middle" fill="var(--text-color)" font-size="14" font-weight="bold">Advanced</text>
+                                <path d="M50 160 Q150 140 250 160" stroke="var(--accent-color)" stroke-width="3" fill="none"/>
+                            </svg>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-level" data-translate="courses.advanced.level">Advanced</div>
+                            <h3 class="course-title" data-translate="courses.advanced.title">English Mastery</h3>
+                            <p class="course-description" data-translate="courses.advanced.description">Achieve fluency with advanced topics, nuanced expressions, and professional communication skills.</p>
+                            <div class="course-details">
+                                <div class="course-duration">
+                                    <span data-translate="courses.duration">Duration:</span> <span data-translate="courses.advanced.duration">20 weeks</span>
+                                </div>
+                                <div class="course-lessons">
+                                    <span data-translate="courses.lessons">Lessons:</span> <span data-translate="courses.advanced.lessons">60 lessons</span>
+                                </div>
+                            </div>
+                            <div class="course-features">
+                                <ul>
+                                    <li data-translate="courses.advanced.feature1">Complex grammar mastery</li>
+                                    <li data-translate="courses.advanced.feature2">Idiomatic expressions</li>
+                                    <li data-translate="courses.advanced.feature3">Academic writing</li>
+                                    <li data-translate="courses.advanced.feature4">Public speaking skills</li>
+                                </ul>
+                            </div>
+                            <div class="course-price">
+                                <span class="price" data-translate="courses.advanced.price">$199</span>
+                            </div>
+                            <button class="btn btn-primary course-enroll" data-translate="courses.enroll">Enroll Now</button>
+                        </div>
+                    </div>
+
+                    <!-- Business English Course -->
+                    <div class="course-card" data-level="business">
+                        <div class="course-image">
+                            <svg width="100%" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="300" height="200" fill="var(--primary-color)" opacity="0.1"/>
+                                <rect x="100" y="60" width="100" height="80" rx="5" fill="var(--primary-color)" opacity="0.8"/>
+                                <circle cx="130" cy="90" r="8" fill="white"/>
+                                <circle cx="170" cy="90" r="8" fill="white"/>
+                                <text x="150" y="160" text-anchor="middle" fill="var(--text-color)" font-size="14" font-weight="bold">Business</text>
+                            </svg>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-level" data-translate="courses.business.level">Business</div>
+                            <h3 class="course-title" data-translate="courses.business.title">Business English</h3>
+                            <p class="course-description" data-translate="courses.business.description">Professional English for the workplace. Master business communication, presentations, and industry-specific vocabulary.</p>
+                            <div class="course-details">
+                                <div class="course-duration">
+                                    <span data-translate="courses.duration">Duration:</span> <span data-translate="courses.business.duration">14 weeks</span>
+                                </div>
+                                <div class="course-lessons">
+                                    <span data-translate="courses.lessons">Lessons:</span> <span data-translate="courses.business.lessons">42 lessons</span>
+                                </div>
+                            </div>
+                            <div class="course-features">
+                                <ul>
+                                    <li data-translate="courses.business.feature1">Business correspondence</li>
+                                    <li data-translate="courses.business.feature2">Meeting facilitation</li>
+                                    <li data-translate="courses.business.feature3">Presentation skills</li>
+                                    <li data-translate="courses.business.feature4">Industry vocabulary</li>
+                                </ul>
+                            </div>
+                            <div class="course-price">
+                                <span class="price" data-translate="courses.business.price">$179</span>
+                            </div>
+                            <button class="btn btn-primary course-enroll" data-translate="courses.enroll">Enroll Now</button>
+                        </div>
+                    </div>
+
+                    <!-- Conversation Course -->
+                    <div class="course-card" data-level="intermediate">
+                        <div class="course-image">
+                            <svg width="100%" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="300" height="200" fill="var(--secondary-color)" opacity="0.1"/>
+                                <ellipse cx="120" cy="80" rx="30" ry="20" fill="var(--secondary-color)" opacity="0.6"/>
+                                <ellipse cx="180" cy="120" rx="30" ry="20" fill="var(--secondary-color)" opacity="0.8"/>
+                                <text x="150" y="160" text-anchor="middle" fill="var(--text-color)" font-size="14" font-weight="bold">Conversation</text>
+                            </svg>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-level" data-translate="courses.conversation.level">All Levels</div>
+                            <h3 class="course-title" data-translate="courses.conversation.title">Conversation Practice</h3>
+                            <p class="course-description" data-translate="courses.conversation.description">Improve your speaking confidence through guided conversations, role-plays, and interactive speaking exercises.</p>
+                            <div class="course-details">
+                                <div class="course-duration">
+                                    <span data-translate="courses.duration">Duration:</span> <span data-translate="courses.conversation.duration">8 weeks</span>
+                                </div>
+                                <div class="course-lessons">
+                                    <span data-translate="courses.lessons">Lessons:</span> <span data-translate="courses.conversation.lessons">24 lessons</span>
+                                </div>
+                            </div>
+                            <div class="course-features">
+                                <ul>
+                                    <li data-translate="courses.conversation.feature1">Live conversation practice</li>
+                                    <li data-translate="courses.conversation.feature2">Pronunciation coaching</li>
+                                    <li data-translate="courses.conversation.feature3">Confidence building</li>
+                                    <li data-translate="courses.conversation.feature4">Real-world scenarios</li>
+                                </ul>
+                            </div>
+                            <div class="course-price">
+                                <span class="price" data-translate="courses.conversation.price">$79</span>
+                            </div>
+                            <button class="btn btn-primary course-enroll" data-translate="courses.enroll">Enroll Now</button>
+                        </div>
+                    </div>
+
+                    <!-- IELTS Preparation Course -->
+                    <div class="course-card" data-level="advanced">
+                        <div class="course-image">
+                            <svg width="100%" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="300" height="200" fill="var(--accent-color)" opacity="0.1"/>
+                                <rect x="80" y="60" width="140" height="80" rx="10" fill="var(--accent-color)" opacity="0.8"/>
+                                <text x="150" y="100" text-anchor="middle" fill="white" font-size="16" font-weight="bold">IELTS</text>
+                                <text x="150" y="160" text-anchor="middle" fill="var(--text-color)" font-size="14" font-weight="bold">Test Prep</text>
+                            </svg>
+                        </div>
+                        <div class="course-content">
+                            <div class="course-level" data-translate="courses.ielts.level">Test Prep</div>
+                            <h3 class="course-title" data-translate="courses.ielts.title">IELTS Preparation</h3>
+                            <p class="course-description" data-translate="courses.ielts.description">Comprehensive IELTS test preparation covering all four skills: Reading, Writing, Listening, and Speaking.</p>
+                            <div class="course-details">
+                                <div class="course-duration">
+                                    <span data-translate="courses.duration">Duration:</span> <span data-translate="courses.ielts.duration">10 weeks</span>
+                                </div>
+                                <div class="course-lessons">
+                                    <span data-translate="courses.lessons">Lessons:</span> <span data-translate="courses.ielts.lessons">40 lessons</span>
+                                </div>
+                            </div>
+                            <div class="course-features">
+                                <ul>
+                                    <li data-translate="courses.ielts.feature1">Practice tests</li>
+                                    <li data-translate="courses.ielts.feature2">Test strategies</li>
+                                    <li data-translate="courses.ielts.feature3">Score improvement</li>
+                                    <li data-translate="courses.ielts.feature4">Expert feedback</li>
+                                </ul>
+                            </div>
+                            <div class="course-price">
+                                <span class="price" data-translate="courses.ielts.price">$229</span>
+                            </div>
+                            <button class="btn btn-primary course-enroll" data-translate="courses.enroll">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Benefits Section -->
+        <section class="course-benefits">
+            <div class="container">
+                <h2 class="section-title" data-translate="courses.benefits.title">What's Included in Every Course</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14,2 14,8 20,8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10,9 9,9 8,9"/>
+                            </svg>
+                        </div>
+                        <h3 data-translate="courses.benefits.materials.title">Course Materials</h3>
+                        <p data-translate="courses.benefits.materials.description">Comprehensive study materials, worksheets, and downloadable resources.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="m22 21-3-3"/>
+                                <circle cx="18" cy="15" r="3"/>
+                            </svg>
+                        </div>
+                        <h3 data-translate="courses.benefits.support.title">Personal Support</h3>
+                        <p data-translate="courses.benefits.support.description">One-on-one guidance from certified instructors throughout your journey.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M10 2v20M14 2v20M4 7h16M4 17h16"/>
+                            </svg>
+                        </div>
+                        <h3 data-translate="courses.benefits.certificate.title">Certificate</h3>
+                        <p data-translate="courses.benefits.certificate.description">Earn a verified certificate upon successful completion of your course.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12,6 12,12 16,14"/>
+                            </svg>
+                        </div>
+                        <h3 data-translate="courses.benefits.access.title">Lifetime Access</h3>
+                        <p data-translate="courses.benefits.access.description">Continue learning at your own pace with permanent access to course content.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-translate="footer.company">English Academy</h3>
+                    <p data-translate="footer.description">Empowering learners worldwide with quality English education.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-translate="footer.quick-links">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-translate="nav.home">Home</a></li>
+                        <li><a href="about.html" data-translate="nav.about">About</a></li>
+                        <li><a href="contact.html" data-translate="nav.contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-translate="footer.contact">Contact Info</h4>
+                    <p data-translate="footer.email">Email: info@englishacademy.com</p>
+                    <p data-translate="footer.phone">Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer.copyright">&copy; 2025 English Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
